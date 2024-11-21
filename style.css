@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Resetta margini e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo della pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Sezione Servizi */
+#servizi {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+#servizi h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.servizio {
+    background-color: #e9ecef;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.servizio h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.servizio p {
+    font-size: 1rem;
+}
+
+/* Sezione Contatti */
+#contatti {
+    background-color: #f8f9fa;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contatti h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contatti p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
